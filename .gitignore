@@ -1,0 +1,5 @@
+src/client/node_modules/
+src/servers/node_modules/
+src/client/dist/
+
+.idea/

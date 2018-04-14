@@ -2,6 +2,8 @@ import React from 'react';
 import moment from 'moment-timezone';
 import { render } from 'react-dom';
 
+import { unshiftArray, averageArray } from "./services/arrayServices";
+
 import './css/styles.scss'
 
 import { safeFetch, methods} from "./api/safeFetch";
@@ -20,18 +22,22 @@ class App extends React.Component {
 
     render () {
         if (this.state && this.state.users) {
+            const localTimezone = moment.tz.guess();
+            const nowLocally = moment.tz(localTimezone);
+            const todayDay = nowLocally.get('days');
             const rows = [];
             for (const key in this.state.users) {
                 const user = this.state.users[key];
-                const localTimezone = moment.tz.guess();
                 const lastUpdatedDateLocaly = moment.tz(user.lastUpdated, localTimezone);
                 const lastUpdateDayLocally = lastUpdatedDateLocaly.get('days');
-                const nowLocally = moment.tz(localTimezone);
-                const todayDay = nowLocally.get('days');
-                const arrayIndex = todayDay - lastUpdateDayLocally - 1;
+                const arrayIndex = todayDay - lastUpdateDayLocally;
                 const todaysAvailability = user.availabilityArray[arrayIndex];
+                const normalizedWeekDaysArrayIndex = (lastUpdateDayLocally + 6) % 7;
+                const weekDaysAvailability = unshiftArray(user.availabilityArray, normalizedWeekDaysArrayIndex).splice(0, 5);
+                const averageAvailability = Math.round(averageArray(weekDaysAvailability));
+
                 rows.push(
-                    <Row key={key} name={user.name} todaysAvailability={todaysAvailability} averageAvailability={0}></Row>
+                    <Row key={key} name={user.name} todaysAvailability={todaysAvailability} averageAvailability={averageAvailability}></Row>
                 )
             }
 
