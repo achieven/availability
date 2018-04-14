@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/achieven/react-calculator#readme",
   "dependencies": {
-    "babel-runtime": "^6.26.0",
+    "babel-runtime": "~6.26",
     "moment": "~2.22",
     "moment-timezone": "~0.5",
     "react": "~16.3",
