@@ -1,0 +1,244 @@
+{
+  "users" : {
+    "2o8XIHnKMoada5lN0Dzbn8Wy4Dt2" : {
+      "absent" : false,
+      "availabilityArray" : [ 4, 4, 6, 4, 3, 2, 2 ],
+      "lastUpdated" : 1522048019000,
+      "name" : "Paul",
+      "note" : "Grds. Montag bis Mittwoch lang; Donnerstag und Freitag kurz (15:00 Uhr)",
+      "panicking" : false,
+      "version" : "1.0.8"
+    },
+    "6uhTYeRlTgNdhUC4kNGckf5gc2c2" : {
+      "absent" : true,
+      "availabilityArray" : [ 4, 4, 4, 1, 0, 2, 3 ],
+      "lastUpdated" : 1522048019000,
+      "name" : "David",
+      "note" : "Freitag in Hamburg, Montag (5.3.) Urlaub",
+      "panicking" : false,
+      "version" : "1.0.8"
+    },
+    "9fqaUX5LT7QZJsZ6Z0jyi872tPd2" : {
+      "absent" : false,
+      "availabilityArray" : [ 4, 4, 4, 4, 4, 3, 2 ],
+      "lastUpdated" : 1522048019000,
+      "name" : "Kim",
+      "note" : "",
+      "panicking" : false,
+      "version" : "1.0.8"
+    },
+    "9h1evC9PaTNdQON5kxfBAXPl6kv2" : {
+      "absent" : false,
+      "availabilityArray" : [ 3, 3, 3, 3, 3, 1, 0 ],
+      "lastUpdated" : 1522048019000,
+      "name" : "Thomas",
+      "note" : "",
+      "panicking" : false,
+      "version" : "1.0.8"
+    },
+    "AlLERyLyh0cBaOzeg143RrrmQN42" : {
+      "absent" : false,
+      "availabilityArray" : [ 4, 4, 4, 4, 4, 3, 1 ],
+      "lastUpdated" : 1522048019000,
+      "name" : "Alice",
+      "note" : "",
+      "panicking" : false,
+      "version" : "1.0.7"
+    },
+    "Cys1PydRMKYPwAZPpVz8ijVdwCc2" : {
+      "absent" : false,
+      "availabilityArray" : [ 3, 4, 3, 4, 4, 1, 3 ],
+      "lastUpdated" : 1522048019000,
+      "name" : "Tim",
+      "note" : "",
+      "panicking" : false,
+      "version" : "1.0.8"
+    },
+    "EW3DUO9w5AYBwW6w3I5AazDiEFO2" : {
+      "absent" : false,
+      "availabilityArray" : [ 1, 3, 4, 3, 3, 3, 2 ],
+      "lastUpdated" : 1522048019000,
+      "name" : "James",
+      "note" : "",
+      "panicking" : false,
+      "version" : "1.0.8"
+    },
+    "FAie3CbgnveMIWrRJF6CwAb3G1T2" : {
+      "absent" : false,
+      "availabilityArray" : [ 4, 4, 4, 4, 3, 3, 4 ],
+      "lastUpdated" : 1522048019000,
+      "name" : "Victor",
+      "note" : "Montag/Dienstag Berlin",
+      "panicking" : false,
+      "version" : "1.0.8"
+    },
+    "FRopJntE4qQn5RwtK5eaxV9vNCN2" : {
+      "absent" : false,
+      "availabilityArray" : [ 4, 4, 4, 4, 4, 2, 1 ],
+      "lastUpdated" : 1522048019000,
+      "name" : "Jonas",
+      "note" : "Neue Aufgaben bitte nur nach Abstimmung mit WIT/KEI",
+      "panicking" : false,
+      "version" : "1.0.7"
+    },
+    "FaDCeS4icNeVlfFVZINHolBKowv2" : {
+      "absent" : true,
+      "availabilityArray" : [ 4, 3, 2, 2, 4, 4, 4 ],
+      "lastUpdated" : 1522048019000,
+      "name" : "Christian",
+      "note" : "5.3. und 9.3. Urlaub",
+      "panicking" : false,
+      "version" : "1.0.8"
+    },
+    "G3mfOGc7bWRRVB6gQGeLJTipAw83" : {
+      "absent" : false,
+      "admin" : true,
+      "availabilityArray" : [ 4, 2, 3, 3, 4, 4, 6 ],
+      "lastUpdated" : 1522048019000,
+      "name" : "Lilly",
+      "note" : "Mein WiMi ist krank geworden. Brauche dringend Unterstützung bei meinem Fall mit Osrata!",
+      "panicking" : true,
+      "version" : "1.0.8"
+    },
+    "HUVSxLytL1WN1nHSg1BzUBZ5Km53" : {
+      "absent" : false,
+      "availabilityArray" : [ 4, 4, 3, 3, 4, 3, 4 ],
+      "lastUpdated" : 1522048019000,
+      "name" : "Elisa",
+      "note" : "In der Regel von 8.15 bis mindestens 15.15 Uhr im Büro, sonst mobil\n\n",
+      "panicking" : false,
+      "version" : "1.0.7"
+    },
+    "LOmItugw6wZgladRrA0YSNUeU3z1" : {
+      "absent" : false,
+      "availabilityArray" : [ 4, 4, 4, 3, 3, 2, 1 ],
+      "lastUpdated" : 1522048019000,
+      "name" : "Julian",
+      "note" : "",
+      "panicking" : false,
+      "version" : "1.0.8"
+    },
+    "Ud7KD62Uv2aUZLlPlxwQPQXY8jC2" : {
+      "absent" : false,
+      "availabilityArray" : [ 3, 4, 4, 4, 4, 4, 3 ],
+      "lastUpdated" : 1522048019000,
+      "name" : "Frederic",
+      "note" : "",
+      "panicking" : false,
+      "version" : "1.0.8"
+    },
+    "X5smaDorkrb78Nn5zFoj5QOWfTZ2" : {
+      "absent" : false,
+      "availabilityArray" : [ 4, 4, 4, 4, 4, 2, 2 ],
+      "lastUpdated" : 1522048019000,
+      "name" : "Robin",
+      "note" : "\n",
+      "panicking" : false,
+      "version" : "1.0.7"
+    },
+    "c242BvJctTRmJDDO87HaGcQovLw2" : {
+      "absent" : false,
+      "availabilityArray" : [ 4, 4, 4, 4, 4, 4, 4 ],
+      "lastUpdated" : 1522048019000,
+      "name" : "William",
+      "note" : "",
+      "panicking" : false,
+      "version" : "1.0.8"
+    },
+    "fQhsLCasWOXlOeQRCov5y5Gw83L2" : {
+      "absent" : false,
+      "availabilityArray" : [ 3, 4, 4, 4, 4, 3, 3 ],
+      "lastUpdated" : 1522048019000,
+      "name" : "Anna",
+      "note" : "Do/Fr Bonn und Köln ",
+      "panicking" : false,
+      "version" : "1.0.7"
+    },
+    "g7lufVwdXtVSkAwIw9GAooNPPBO2" : {
+      "absent" : false,
+      "availabilityArray" : [ 4, 4, 3, 6, 6, 6, 4 ],
+      "lastUpdated" : 1522048019000,
+      "name" : "Nathalie",
+      "note" : "",
+      "panicking" : false,
+      "version" : "1.0.8"
+    },
+    "hQhgZeop3wYDKzeNoZwfljXFJKL2" : {
+      "absent" : false,
+      "availabilityArray" : [ 4, 4, 4, 3, 3, 2, 2 ],
+      "lastUpdated" : 1522048019000,
+      "name" : "Lisa",
+      "note" : "",
+      "panicking" : false
+    },
+    "iqc0ElZJFCReDVj5hawLWXGLVQt1" : {
+      "absent" : true,
+      "availabilityArray" : [ 4, 4, 3, 2, 4, 4, 4 ],
+      "lastUpdated" : 1522048019000,
+      "name" : "Sebastian",
+      "note" : "Urlaub vom 5.-9.02.",
+      "panicking" : false,
+      "version" : "1.0.7"
+    },
+    "mHs9qpa0b3MK7DPcPqoGBhIbwtr1" : {
+      "absent" : false,
+      "availabilityArray" : [ 4, 4, 4, 4, 3, 3, 3 ],
+      "lastUpdated" : 1522048019000,
+      "name" : "John",
+      "note" : "12./13.03. Urlaub",
+      "panicking" : false
+    },
+    "nwVxpzsfiadu4bjUThlpNdrZdCb2" : {
+      "absent" : false,
+      "availabilityArray" : [ 3, 4, 3, 3, 4, 4, 3 ],
+      "lastUpdated" : 1522048019000,
+      "name" : "Leon",
+      "note" : "",
+      "panicking" : false,
+      "version" : "1.0.8"
+    },
+    "rTajeEE49FX500qZnwBP8WByflW2" : {
+      "absent" : false,
+      "availabilityArray" : [ 1, 1, 3, 1, 4, 2, 1 ],
+      "lastUpdated" : 1522048019000,
+      "name" : "Sarah",
+      "note" : "",
+      "panicking" : false
+    },
+    "uQAC5wgvruhyUF265FD5anm27QC2" : {
+      "absent" : false,
+      "availabilityArray" : [ 4, 4, 4, 4, 4, 3, 3 ],
+      "lastUpdated" : 1522048019000,
+      "name" : "Maria",
+      "note" : "Arbeitszeiten Mo-Fr 8:30-15:30 Uhr; diesen Mittwoch ggf. Home Office",
+      "panicking" : false
+    },
+    "wDPDJraPWRQ1VnPVkM5qwOEOPaK2" : {
+      "absent" : false,
+      "availabilityArray" : [ 4, 4, 4, 4, 4, 3, 3 ],
+      "lastUpdated" : 1522048019000,
+      "name" : "Hannes",
+      "note" : "",
+      "panicking" : false,
+      "version" : "1.0.8"
+    },
+    "xM04Y53vn6Vbc4xuPAOs10lgUkM2" : {
+      "absent" : false,
+      "availabilityArray" : [ 4, 4, 4, 2, 3, 3, 3 ],
+      "lastUpdated" : 1522048019000,
+      "name" : "Emma",
+      "note" : "Mo frei, Di u Mi 9-19 Uhr, Fr 8:30-14:30",
+      "panicking" : false,
+      "version" : "1.0.7"
+    },
+    "zCq152mf3KhmkYMu9rZiLew4Ynp2" : {
+      "absent" : false,
+      "availabilityArray" : [ 0, 4, 3, 3, 3, 3, 3 ],
+      "lastUpdated" : 1522048019000,
+      "name" : "Elizabeth",
+      "note" : "Donnerstag mit BAL von 16:00 Uhr bis ca. 18:00 Uhr bei Mandant\nFreitag mit THW von 14:00 Uhr bis ca. 16:00 Uhr bei Mandant",
+      "panicking" : false,
+      "version" : "1.0.8"
+    }
+  }
+}

@@ -1,0 +1,107 @@
+body {
+  overflow: auto;
+  height: 100%;
+  width: 100%;
+}
+
+.firstColumn {
+  padding-left: 20%;
+}
+.secondColumn {
+  padding-right: 20%;
+}
+
+.column {
+  width: 50%;
+  float: left;
+  height: 100%;
+  &.heute {
+    background-color: #fff9eb;
+  }
+  &.wochen {
+    background-color: #f2d6a4;
+  }
+  .header {
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+  }
+}
+
+.L {
+  float: left;
+}
+
+.R {
+  float: right;
+}
+
+.rows_container {
+  position: fixed;
+  top: 100px;
+  left: 20%;
+  width: 60%;
+  .row {
+    height: 60px;
+    margin-bottom: 10px;
+    background-color: #fefefe;
+    border-color: #fdfefd;
+    border-radius: 2px;
+    .todays_availability {
+      padding-left: 15px;
+      padding-top: 15px;
+    }
+    .name_container {
+      width: calc(100% - 90px);
+    }
+    .average_availability {
+      padding-top: 15px;
+    }
+    .circle {
+      height: 30px;
+      width: 30px;
+      border-radius: 15px;
+
+      &.blue {
+        background-color: blue;
+      }
+      &.green {
+        background-color: green;
+      }
+      &.lightgreen {
+        background-color: lightgreen;
+      }
+      &.yellow {
+        background-color: yellow;
+      }
+      &.orange {
+        background-color: orange;
+      }
+      &.red {
+        background-color: red;
+      }
+      &.black {
+        background-color: black;
+      }
+
+      .availability {
+        color: white;
+        text-align: center;
+        padding-top: 7px;
+      }
+    }
+  }
+}
+
+.centralize_horizontaly_vertically {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
