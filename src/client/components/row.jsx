@@ -14,7 +14,6 @@ class Row extends React.Component {
         super(props);
     }
 
-
     render() {
         return (
                 <div className="row">

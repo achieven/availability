@@ -16,7 +16,7 @@ class Column extends React.Component {
         return (
             <div className={'column ' + this.props.columnType}>
                 <div className="header">
-                    {this.props.columnType}
+                    {'heute' === this.props.columnType ? 'Heute': '7 Tage'}
                 </div>
                 {this.props.users}
             </div>

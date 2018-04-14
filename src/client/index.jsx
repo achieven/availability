@@ -30,8 +30,8 @@ class App extends React.Component {
                 const user = this.state.users[key];
                 const lastUpdatedDateLocaly = moment.tz(user.lastUpdated, localTimezone);
                 const lastUpdateDayLocally = lastUpdatedDateLocaly.get('days');
-                const arrayIndex = todayDay - lastUpdateDayLocally;
-                const todaysAvailability = user.availabilityArray[arrayIndex];
+                const todayArrayIndex = todayDay - lastUpdateDayLocally;
+                const todaysAvailability = user.availabilityArray[todayArrayIndex];
                 const normalizedWeekDaysArrayIndex = (lastUpdateDayLocally + 6) % 7;
                 const weekDaysAvailability = unshiftArray(user.availabilityArray, normalizedWeekDaysArrayIndex).splice(0, 5);
                 const averageAvailability = Math.round(averageArray(weekDaysAvailability));
