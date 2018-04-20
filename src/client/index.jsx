@@ -2,7 +2,7 @@ import React from 'react';
 import moment from 'moment-timezone';
 import { render } from 'react-dom';
 
-import { unshiftArray, averageArray } from "./services/arrayServices";
+import { calculateUserAvailability } from "./services/timezoneServices";
 
 import './css/styles.scss'
 
@@ -20,6 +20,7 @@ class App extends React.Component {
         });
     }
 
+
     render () {
         if (this.state && this.state.users) {
             const localTimezone = moment.tz.guess();
@@ -28,16 +29,9 @@ class App extends React.Component {
             const rows = [];
             for (const key in this.state.users) {
                 const user = this.state.users[key];
-                const lastUpdatedDateLocaly = moment.tz(user.lastUpdated, localTimezone);
-                const lastUpdateDayLocally = lastUpdatedDateLocaly.get('days');
-                const todayArrayIndex = todayDay - lastUpdateDayLocally;
-                const todaysAvailability = user.availabilityArray[todayArrayIndex];
-                const normalizedWeekDaysArrayIndex = (lastUpdateDayLocally + 6) % 7;
-                const weekDaysAvailability = unshiftArray(user.availabilityArray, normalizedWeekDaysArrayIndex).splice(0, 5);
-                const averageAvailability = Math.round(averageArray(weekDaysAvailability));
-
+                const availability = calculateUserAvailability(user.lastUpdated, user.availabilityArray, localTimezone, todayDay);
                 rows.push(
-                    <Row key={key} name={user.name} todaysAvailability={todaysAvailability} averageAvailability={averageAvailability}></Row>
+                    <Row key={key} name={user.name} todaysAvailability={availability.todaysAvailability} averageAvailability={Math.round(availability.averageAvailability)}></Row>
                 )
             }
 
@@ -60,3 +54,5 @@ class App extends React.Component {
 }
 
 render(<App/>, document.getElementById('app'));
+
+export default App;
