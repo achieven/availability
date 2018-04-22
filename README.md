@@ -1,5 +1,12 @@
 # availability
 
+# prepare server
+cd src/server  
+npm install  
+
+# run server
+npm start
+
 # prepare client
 cd src/client    
 npm install  
@@ -8,18 +15,11 @@ npm run webpack
 # run client
 npm run webpack-dev-server
 
-# prepare server
-cd src/server  
-npm install  
-
-# run server
-npm server
-
-#prepare tests
+# prepare tests
 cd tests/client
 npm install
 
-#run tests
+# run tests
 npm test
 
 # use
