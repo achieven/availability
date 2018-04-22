@@ -13,7 +13,14 @@ cd src/server
 npm install  
 
 # run server
-node app.js
+npm server
+
+#prepare tests
+cd tests/client
+npm install
+
+#run tests
+npm test
 
 # use
 http://localhost:8080 (or similar port, whatever webpack-dev-server is using)
